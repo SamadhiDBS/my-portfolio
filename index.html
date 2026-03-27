@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sithumi Samadhi | Data Science Portfolio</title>
+    <!-- boxicons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Samadhi.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Sithumi Samadhi</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="Aspiring Data Scientist">Aspiring Data Scientist</span>
+                <span style="--i:3;" data-text="Learner">Learner</span>
+                <span style="--i:2;" data-text="Coder">Coder</span>
+                <span style="--i:1;" data-text="Web Developer">Web Developer</span>
+            </h2>
+            <p>I am an undergraduate at the University of Kelaniya pursuing a BSc (Hons) in Computer Science,
+                specializing in Data Science.
+                I have experience in programming and web development, and I am currently building my skills in data
+                analysis and machine learning.
+                I am passionate about solving real-world problems using data and continuously improving my technical
+                expertise.</p>
+            <div class="btn-sci">
+                <!-- <a href="cv.pdf" class="btn" download>Download CV</a> -->
+              <!-- Option 2: Force download with JavaScript -->
+                <a href="cv.pdf" class="btn" onclick="downloadCV(event)">Download CV</a>
+                
+                <script>
+                function downloadCV(event) {
+                    event.preventDefault();
+                    window.open('cv.pdf', '_blank');
+                    // Or force download:
+                    // const link = document.createElement('a');
+                    // link.href = 'cv.pdf';
+                    // link.download = 'Sithumi_Samadhi_CV.pdf';
+                    // link.click();
+                }
+                </script>
+                <div class="sci">
+                    <!-- <a href="https://github.com/SamadhiDBS"><i class='bxl  bx-github'></i> </a>
+                    <a href="https://www.linkedin.com/in/sithumi-samadhi/"><i class='bxl  bx-linkedin-square'></i> </a> -->
+                    <a href="https://github.com/SamadhiDBS" target="_blank" rel="noopener noreferrer"><i class='bxl  bx-github'></i></a>
+                    <a href="https://www.linkedin.com/in/sithumi-samadhi-0746b6292" target="_blank" rel="noopener noreferrer"><i class='bxl  bx-linkedin-square'></i></a>
+                    <a href="mailto:samadhisithumi2@gmail.com"><i class='bxl  bx-gmail'></i> </a>
+                    <!-- <a href="https://www.instagram.com/sithumi_samadhi_?igsh=bGZndGRkaWIyMG5s"><i
+                            class='bxl  bx-instagram'></i> </a> -->
+                    <a href="https://www.instagram.com/sithumi_samadhi_?igsh=bGZndGRkaWIyMG5s" target="_blank" rel="noopener noreferrer"><i class='bxl  bx-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/2.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bxr  bx-chart-bar-columns'></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Data Analysis</h3>
+                <p>Analyzing datasets using Python (Pandas, NumPy) to clean, process, and extract meaningful insights. I
+                    create visualizations to support data-driven decision making.</p>
+
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-computer"></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Machine Learning</h3>
+                <p>Building basic machine learning models for prediction tasks such as classification and regression
+                    using Scikit-learn. Experienced in data preprocessing and model evaluation.</p>
+
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-chart-bar-big-columns"></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Power BI Dashboards</h3>
+                <p>Designing interactive dashboards and reports using Power BI. Skilled in data visualization, basic
+                    DAX, and presenting insights in a clear and professional way.</p>
+
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-terminal"></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Creating responsive websites using HTML, CSS, and JavaScript. Focused on clean UI design and
+                    user-friendly interfaces.</p>
+
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-code"></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Programming</h3>
+                <p>Strong programming foundation in Python, Java, C, and C#. Experienced in problem-solving and building
+                    small projects.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class="bx bx-chart-bubble"></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Data Visualization</h3>
+                <p>Creating visual representations of data using Matplotlib, Seaborn, and Power BI to communicate
+                    insights effectively.</p>
+            </div>
+
+            <!-- <div class="services-box">
+                <div class="icon">
+                    <i class='bx  bx-camera'></i>
+                    <a href="#"><i class='bx  bx-arrow-left-stroke'></i> </a>
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati voluptas illo dignissimos
+                    suscipit aliquid debitis! Distinctio mollitia ea modi, odio obcaecati expedita totam, rerum
+                    assumenda fugit cupiditate, facilis saepe.</p>
+
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">I am a dedicated Computer Science undergraduate specializing in Data Science, with a
+                    strong foundation in programming, data analysis, and web development. I actively build projects to
+                    apply my skills in real-world scenarios, including machine learning models and data visualization
+                    dashboards. I am a fast learner, detail-oriented and highly motivated to contribute and grow in a
+                    professional environment.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">I have developed practical experience through academic projects and self-driven
+                        learning in data science, web development, and programming. My work includes building machine
+                        learning models, creating Power BI dashboards, and developing responsive web applications.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2026</p>
+                            <h3>STEM4HER Program - SLASSCOM & LSEG</h3>
+                            <p class="company">University of Kelaniya</p>
+                            <p>1st place in team competition; gained industry exposure and problem-solving experience.
+                            </p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2026</p>
+                            <h3>Airline Satisfaction Analysis (ML + Power BI)</h3>
+                            <p class="company">Data Science Project</p>
+                            <p>ML model + Power BI dashboards to analyze and predict customer satisfaction.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2026</p>
+                            <h3>Laptop Price Predictor</h3>
+                            <p class="company">Machine Learning Project</p>
+                            <p>Built ML web app with ~79% accuracy for price prediction.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2026</p>
+                            <h3>Customer Shopping Behavior Analysis</h3>
+                            <p class="company">Data Analytics Project</p>
+                            <p>Analyzed customer data using Python, SQL, and Power BI for insights.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023 - 2025</p>
+                            <h3>Programming Practice & Mini Projects</h3>
+                            <p class="company">Self-Learning</p>
+                            <p>Developed small projects and coding exercises in C, Java, Python, and some C#.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023 - 2024</p>
+                            <h3>Web Development Projects</h3>
+                            <p class="company">Self Projects</p>
+                            <p>Developed responsive websites using HTML, CSS, and JavaScript.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">I am an undergraduate student at the University of Kelaniya pursuing B.Sc. (Hons) in
+                        Computer Science with a specialization in Data Science.
+                        I have strong academic performance from school and have completed several online certifications
+                        to enhance my programming and data skills.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2017</p>
+                            <h3>Ordinary Level (O/L)</h3>
+                            <p class="company">Sanghamiththa Girls' College, Galle,Sri Lanka</p>
+                            <p>Results: 8 A's & 1 B (B - English Literature)</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2021</p>
+                            <h3>Advanced Level (A/L)</h3>
+                            <p class="company">Sanghamiththa Girls' College, Galle,Sri Lanka</p>
+                            <p>Results: 1 A & 2 B's (A - Mathematics, B - Physics, B - Chemistry)</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023 - Present</p>
+                            <h3>B.Sc. (Hons) Computer Science</h3>
+                            <p class="company">University of Kelaniya</p>
+                            <p>Specialized Pathway: Data Science</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 April</p>
+                            <h3>Coursera Certificate : Supervised Machine Learning</h3>
+                            <p class="company">Standford | Online</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/4P1LLM3731H2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                                target="_blank">Certificate</a>
+                        </div>
+
+
+                        <div class="resume-item">
+                            <p class="year">2025 August</p>
+                            <h3>Coursera Certificate : Supervised Machine Learning</h3>
+                            <p class="company">Standford | Online</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/3CG2ELQGFCXL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 August</p>
+                            <h3>Certificate of Accomplishment : SQL(Basic)</h3>
+                            <p class="company">HackerRank</p>
+                            <a href="https://www.hackerrank.com/certificates/10d9eadb9f4a"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 August</p>
+                            <h3>Certificate of Accomplishment : Java(Basic)</h3>
+                            <p class="company">HackerRank</p>
+                            <a href="https://www.hackerrank.com/certificates/8bf352fd5c62"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 September</p>
+                            <h3>Certificate of Accomplishment : Python(Basic)</h3>
+                            <p class="company">HackerRank</p>
+                            <a href="https://www.hackerrank.com/certificates/dec65a2423dd"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 October</p>
+                            <h3>Certificate of Accomplishment : C#(Basic)</h3>
+                            <p class="company">HackerRank</p>
+                            <a href="https://www.hackerrank.com/certificates/00b96592f4b3"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 October</p>
+                            <h3>Certificate of Accomplishment : Java(Basic)</h3>
+                            <p class="company">HackerRank</p>
+                            <a href="https://www.hackerrank.com/certificates/8bf352fd5c62"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 August</p>
+                            <h3>Udemy Certificate : Java Spring Framework 6,Springboot 3,Spring AI</h3>
+                            <p class="company">Telusko | Online</p>
+                            <a href="https://www.udemy.com/certificate/UC-c77ec8b7-01d7-45d3-82c8-31392bd8a4a9/"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2025 September</p>
+                            <h3>Udemy Certificate : Python Programming: Python Bootcamp For Begnners</h3>
+                            <p class="company">Udemy | Online</p>
+                            <a href="https://www.udemy.com/certificate/UC-432e77e8-adbd-4184-a597-46b4db055411/"
+                                target="_blank">Certificate</a>
+                        </div>
+
+                        <!-- <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Web Development Bootcamp</h3>
+                            <p class="company">Online Course Platform</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, quod ad ipsa hic! Aspernatur vero dignissimos
+                                dicta illo, mollitia debitis laboriosam iure.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Certified Web Development</h3>
+                            <p class="company">Standford Uni.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, quod ad ipsa hic! Aspernatur vero dignissimos
+                                dicta illo, mollitia debitis laboriosam iure.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2017 - 2018</p>
+                            <h3>Doctor of Engineering</h3>
+                            <p class="company">Kelaniya Uni.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, quod ad ipsa hic! Aspernatur vero dignissimos
+                                dicta illo, mollitia debitis laboriosam iure.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2017</p>
+                            <h3>Master of Computer Science</h3>
+                            <p class="company">Oxford Uni.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, quod ad ipsa hic! Aspernatur vero dignissimos
+                                dicta illo, mollitia debitis laboriosam iure.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2016 - 2017</p>
+                            <h3>Batchelor of Science</h3>
+                            <p class="company">University of Kelaniya</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, quod ad ipsa hic! Aspernatur vero dignissimos
+                                dicta illo, mollitia debitis laboriosam iure.</p>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">I have knowledge and experience in programming, web development, and data science
+                        fundamentals.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bxl  bx-python'></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx  bx-chart-bar-big-columns'></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bxl bx-postgresql"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="bxl bx-my-sql"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="resume-item"><i class="bx bx-code-alt"></i> <span>Jupyter Notebook</span></div>
+
+                        <div class="resume-item"><i class="bx bx-bar-chart"></i> <span>Power BI</span></div>
+
+                        <div class="resume-item">
+                            <i class='bxl  bx-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl  bx-css3'></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl  bx-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="resume-item">
+                            <i class='bxl  bx-java'></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl  bx-c-sharp'></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl  bx-spring-boot'></i>
+                            <span>SpringBoot</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl  bx-c'></i>
+                            <span>C</span>
+                        </div>
+
+                        <div class="resume-item"><i class="bxl bx-git"></i> <span>Git / GitHub</span></div>
+
+                        <div class="resume-item"><i class="bxl bx-canva"></i> <span>Canva / Graphic Design</span></div>
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">I am a passionate Computer Science undergraduate specializing in Data Science.
+                        I enjoy learning new technologies, working on projects, and improving my problem-solving skills.
+                        My goal is to become a skilled data scientist and contribute to impactful real-world solutions.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Sithumi Samadhi</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Gender <span>Female</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>24 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Single</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Colombo</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Sri Lankan</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span> - </span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span> - </span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+94)766967147</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>sithumisamadhi0@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>English, Sinhala</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Airline Satisfaction Analysis</h3>
+                    <p>Developed a machine learning model to predict airline passenger satisfaction and built Power BI
+                        dashboards to analyze key factors affecting satisfaction, enabling actionable insights.</p>
+                    <div class="tech">
+                        <p>Python, Scikit-learn, Pandas, Power BI, SQL</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://huggingface.co/spaces/SamadhiDBS/airline-satisfaction-predictor"
+                            target="_blank">
+                            <i class='bx bx-arrow-left-stroke'></i><span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/SamadhiDBS/Airline-satisfaction-analysis" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>E-Commerce Customer Intelligence Platform</h3>
+                    <p>Built an AI-powered platform analyzing 500K+ transactions to segment customers using K-Means,
+                        predict Customer Lifetime Value (CLV) with 95% accuracy, and provide actionable insights via
+                        Power BI dashboards and a live FastAPI API.</p>
+                    <div class="tech">
+                        <p>Python, Pandas, NumPy, Scikit-learn, Power BI, FastAPI, PostgreSQL</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://huggingface.co/spaces/SamadhiDBS/ecommerce-customer-api" target="_blank">
+                            <i class='bx bx-arrow-left-stroke'></i><span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/SamadhiDBS/ecommerce-customer-api" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Customer Shopping Behavior Analysis</h3>
+                    <p>Analyzed customer purchasing patterns and sales trends using Python, PostgreSQL, and Power BI.
+                        Designed dashboards to track key KPIs, segment customers, and provide actionable
+                        recommendations.</p>
+                    <div class="tech">
+                        <p>Python, Pandas, PostgreSQL, Power BI</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx  bx-arrow-left-stroke'></i><span>Live Project</span> </a>
+                        <a href="https://github.com/SamadhiDBS/Customer_shopping_behavior_analysis" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Laptop Price Predictor</h3>
+                    <p>Built a web app that predicts laptop prices using machine learning based on specs like RAM, CPU,
+                        and brand (~79% accuracy). Deployed live using Hugging Face Spaces for interactive use.</p>
+                    <div class="tech">
+                        <p>Python, Scikit-learn, Streamlit</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://huggingface.co/spaces/SamadhiDBS/laptop-price-predictor" target="_blank">
+                            <i class='bx bx-arrow-left-stroke'></i><span>Live Demo</span>
+                        </a>
+                        <a href="https://github.com/SamadhiDBS/laptop-price-predictor" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Frontend Slider Project</h3>
+                    <p>Built an interactive image slider using HTML, CSS, and JavaScript to demonstrate frontend
+                        development and UI/UX skills.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx  bx-arrow-left-stroke'></i><span>Live Project</span> </a>
+                        <a href="https://github.com/SamadhiDBS/slider" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Built a responsive personal portfolio using HTML, CSS, and JavaScript to showcase my skills,
+                        projects, and learning journey. Highlights my experience in web development, data science
+                        projects, and contact info for collaboration.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx  bx-arrow-left-stroke'></i><span>Live Project</span> </a>
+                        <a href="https://github.com/AnumiVithana/Inklet_App_SpringBoot" target="_blank">
+                            <i class='bxl bx-github'></i><span>Github Repo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/portfolio1.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio2.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio3.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio4.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio5.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio6.png">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx  bx-chevron-left'></i> </button>
+                    <button class="arrow-right"><i class='bx  bx-chevron-right'></i> </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">I'm open to collaborations, freelance work or any opportunities where I can contribute
+                    with my data science, web development and analytical skills. Feel free to reach out!</p>
+                <div class="contact-detail">
+                    <i class='bx  bx-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+94)766967147</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx  bx-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>samadhisithumi2@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx  bx-location'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Colombo, Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="contact-box">
+                <form action="https://formspree.io/f/mjgadvwr" method="POST">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+
+                    <!-- Optional but important -->
+                    <input type="hidden" name="_subject" value="New message from portfolio!">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="field-box">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="phone" placeholder="Phone Number">
+                        <input type="text" name="subject" placeholder="Email Subject">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
